@@ -1,0 +1,304 @@
+<html>
+
+<head>
+    <title>my portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            paddding: 0;
+        }
+
+        body {
+            background-color:   #01322
+            font-family: 'Poppins', sans-serif;
+        }
+*
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: #964B00;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: blueviolet;
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 23px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+        }
+
+        .firstsection div {
+            width: 40%;
+        }
+
+        .leftsection {
+            font-size: 28px;
+            width: 10px;
+
+        }
+        .box{
+            display: flex;
+            justify-content: space-around;
+            width: 104px;
+            height: 60px;
+            border:2px solid black;
+            color: black;
+        }
+         .scroll-anim-container{
+        position: absolute;
+        left: 12vw;
+        bottom: 1rem;
+        cursor: pointer;
+     }
+
+        ul li a:hover {
+             justify-content: space-around;
+        }
+         nav {
+            display: flex;
+            justify-content: space-around;
+            height: 85px;
+            background-color: #964B00;
+        }
+
+        
+
+
+        .rightsection {
+            
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+         
+         .text-white{
+            color:white;
+         }
+        #element {
+            color: blueviolet;
+        }
+        .secondsection{
+           max-width: 80vw;
+             margin: auto;
+           height: 80vh;
+        }
+      
+      .secondsection h1{
+        font-size: 1.8rem;
+
+      }   
+       
+       .secondsection .box { 
+             background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+
+}
+   .secondsection .vertical{
+     height: 93px;
+     width: 1px;
+     background-color: white;
+   }
+   .image-top{
+    width: 30px;
+    left: -12px;
+    top: -110px;
+    position: relative;
+   }
+   .vertical-text{
+    FONT-WEIGHT: 600;
+    position: relative;
+    top: 80px;
+    width: 150px;
+    right: ;
+     }
+     .image-two{
+            width: 30px;
+    left: 250px;
+    top: -169px;
+    position: relative;
+     }
+     .image-three{
+            width: 30px;
+    left: 260px;
+    top: -145px;
+    position: relative;
+
+     }
+     .vertical-desc{
+            position: relative;
+    FONT-WEIGHT: 600;
+    top: 88;
+    width: 15vw;
+    height: 88vh;
+     }
+    
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left"> Adarsh's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">home</a></li>
+                    <li><a href="/">projects</a></li>
+                    <li> <a href="/">skill</a></li>
+                    <li> <a href="/">contact</a></li>
+                    <li> <a href="/">about</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+          
+        <section id ="about">
+            <section class="firstsection">
+                <div class="leftsection">
+                     
+                  <h1>  Hello 👋</h1>
+                  <h2>
+                    I'm
+                    <span class="purple">Adarsh chaudhary </span>
+                </h2>
+                  <span id="purple-cursor" style="display:none;"></span>
+                    <span id="element"></span>
+                </div>
+                </p>
+                 
+                <div class="rightsection">
+                    <img src="bg.png" width="300" height="450">
+
+               
+                 <div class="scroll-anim-container" onclick="toprojects()">
+                    <div class="scroll-anim">
+                        <i class="fa-solid fa-chevron-down"> </i>
+                    </div>
+            </section>
+
+     <hr>   
+     <section class="secondsection">
+        <span class="text-white">what i have done in my project</span>
+     <h1>projects</h1>
+     <div class="box" >
+         <div class="vertical">
+             <div class="vertical-text">
+             <img class="image-top" src="dev.png">
+            1st project is my 
+         </div>     
+         <div class="vertical-desc">
+             <img class="image-two" src="pytm.png">
+             CAR rental system
+         </div> 
+     </div>
+         <div class="vertical">
+               <div class="vertical-text">
+            
+            2n project will be
+         </div>     
+         <div class="vertical-desc">
+            <img class="image-three" src="react.png">
+             my project will be integrated with paytm gate way
+         </div>
+         </div>
+         <div class="vertical">
+               <div class="vertical-text">
+              3rd project will be
+         </div>     
+         <div class="vertical-desc">
+             <img class="image-three" src="node.png">
+            my project will based on react js
+         </div> 
+         </div>
+         <div class="vertical">
+               <div class="vertical-text">
+              4th project will be
+         </div>     
+         <div class="vertical-desc">
+             4th project will based on node js
+         </div> 
+         </div>
+     </section>   
+      <section class="secondsection">
+        <span class="text-white">what i have done in my life</span>
+     <h2>Skill</h2> 
+     <div class="box" >
+        <div class="vertical">
+             <div class="vertical-text">
+             <img class="image-top" src="c++.png">
+             c++
+         </div>     
+         <div class="vertical-desc">
+             <img class="image-two" src="c.png">
+         </div> 
+     </div>
+         <div class="vertical">
+               <div class="vertical-text">
+                c
+         </div>     
+         <div class="vertical-desc">
+            <img class="image-three" src="pyt.png">
+             
+         </div>
+         </div>
+         <div class="vertical">
+               <div class="vertical-text">
+                python
+         </div>     
+         <div class="vertical-desc">
+             <img class="image-three" src="web.png">
+         </div> 
+         </div>
+         <div class="vertical">
+               <div class="vertical-text">
+              html css js
+         </div>     
+         <div class="vertical-desc">             
+         </div> 
+         </div>
+
+     </section> 
+     <hr>   
+    </main>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['webdeveloper','web designer','computer software engineer'],
+            typeSpeed: 80,
+        });
+        document.write("<h1> I have used html css and javascript while making my portfoilio </h1>");
+    </script>
+</body>
+
+</html>
